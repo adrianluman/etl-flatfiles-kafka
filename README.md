@@ -15,4 +15,4 @@ Start Confluent Platform
 - confluent start
 
 ## Covered language
-- go
+- go (unfinished)
