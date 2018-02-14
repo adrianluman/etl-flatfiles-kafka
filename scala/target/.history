@@ -1,0 +1,11 @@
+console
+ls
+scala-version
+scala -version
+console
+scala-version
+var i = 1
+run
+console
+scala-version
+scalaVersion
