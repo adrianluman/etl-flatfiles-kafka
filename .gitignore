@@ -1,2 +1,2 @@
 scala/target
-*.class
+scala/*.class
