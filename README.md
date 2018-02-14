@@ -16,3 +16,4 @@ Start Confluent Platform
 
 ## Covered language
 - go (unfinished)
+- scala
