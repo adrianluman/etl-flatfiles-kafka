@@ -37,7 +37,6 @@ class ScalaConsumer(val brokers: String,
   }
 
   def run() = {
-    System.out.println("dree run")
     consumer.subscribe(Collections.singletonList(this.topic))
 
     Executors.newSingleThreadExecutor.execute(    new Runnable {

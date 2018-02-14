@@ -4,6 +4,8 @@ version := "1.0"
 
 scalaVersion := "2.12.4"
 
+scalacOptions := Seq("-unchecked", "-deprecation")
+
 libraryDependencies ++= Seq(
   // The excludes of jms, jmxtools and jmxri are required as per https://issues.apache.org/jira/browse/KAFKA-974.
   // The exclude of slf4j-simple is because it overlaps with our use of logback with slf4j facade;  without the exclude
@@ -16,3 +18,5 @@ libraryDependencies ++= Seq(
 )
 
 cancelable in Global := true
+
+resourceDirectory in Compile := baseDirectory.value / "resources"

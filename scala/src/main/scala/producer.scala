@@ -25,7 +25,7 @@ object ScalaProducer extends App {
     val ip = "192.168.2." + rnd.nextInt(255)
     val msg = runtime + "," + nEvents + ",www.example.com," + ip
     val data = new ProducerRecord[String, String](topic, ip, msg)
-    System.out.println("dree write " + msg)
+    System.out.println(msg)
 
     //async
     //producer.send(data, (m,e) => {})
