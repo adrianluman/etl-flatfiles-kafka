@@ -1,4 +1,4 @@
 /scala/lib
 /scala/.cache
-/scala/project
-/scala/target
+/scala/project/target/
+/scala/target/
